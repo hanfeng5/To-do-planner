@@ -1,49 +1,70 @@
-# Template Project
+# Getting Started with Create React App
 
-View the deployed template [here](http://twigg.gg/webdev-template/).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This template project uses `vite` to run a dev server and build the project. It
-uses `gh-pages` to deploy the site to the `gh-pages` branch. The base app
-imports the `lit-html` library and uses it to render a template to
-`document.body`.
+## Available Scripts
 
-## Using the template
+In the project directory, you can run:
 
-Click **Use this template** In the top right of this page, and click **Create a
-new repository**. Give your repository a name, and click **Create repository
-from template**. Clone the repository to your computer and open it in your
-editor.
+### `npm start`
 
-Install dependencies with `npm install`.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-After dependencies are installed, use the following scripts (listed in
-`package.json`) as you work on your site:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- `npm run start` - runs the local development server
-- `npm run host` - runs the local development server, but makes it accessible on
-  your network (so you could e.g. open the site on your phone)
-- `npm run build` - builds your site to the `dist` folder
-- `npm run preview` - builds your site and previews the built version locally
-- `npm run deploy` - builds your site and then deploys it to Github pages
+### `npm test`
 
-As you work on your site, install additional packages with
-`npm install packagename`. They will automatically be listed in your
-`package.json`.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**IMPORTANT:** When you want to deploy your site to your own Github pages
-instance, you will need to update the path in the deploy script to reflect the
-name of your repository. This is because Github pages projects are automatically
-hosted from a subfolder on your base `username.github.io` domain. For example,
-this repo is named `webdev-template`, so the deploy script sets the base path
-like this:
+### `npm run build`
 
-```json
-    "deploy": "vite build --base=/webdev-template/ && gh-pages -d dist"
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-If you named your repo `my-cool-project`, you should edit the deploy script to
-be:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```json
-    "deploy": "vite build --base=/my-cool-project/ && gh-pages -d dist"
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
